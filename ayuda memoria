@@ -4,5 +4,14 @@ git config --global user.name "NombreDelUsuario"
 git config --global -e <!--chequea los dos comandos anteriores-->
 
 git add . <!-- va a pasar todos los archivos al area de ensayo-->
+          <!-- los archivos se ponen en verde y te solicita que los transformes en commit-->
 git status <!-- me dice el estado de mis archivos de trabajo-->
            <!-- si los archivos estan en rojo quiere decir que estan en el directorio de trabajo-->
+git commit -m <!-- crea el commit/repositorio que se puede subir a github (una copia)-->
+<!-- una vez que estamos en github-->
+git branch -M main <!-- crea una rama principal-->
+git remote add origin https://github.com/bulacook/clasegit.git <!--relacione mi git con github-->
+git push -u origin main <!--subir los archivos del repositorio local a github-->
+
+<!-- si realizo cambios en mi archivo quiero guardar una nueva copia:-->
+git add . 
