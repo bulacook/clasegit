@@ -1,0 +1,8 @@
+git init <!--por unica vez cuando inicia el proyecto-->
+git config --global user.email "correodelusuario@dominio.com"
+git config --global user.name "NombreDelUsuario"
+git config --global -e <!--chequea los dos comandos anteriores-->
+
+git add . <!-- va a pasar todos los archivos al area de ensayo-->
+git status <!-- me dice el estado de mis archivos de trabajo-->
+           <!-- si los archivos estan en rojo quiere decir que estan en el directorio de trabajo-->
