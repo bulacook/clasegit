@@ -15,3 +15,13 @@ git push -u origin main <!--subir los archivos del repositorio local a github-->
 
 <!-- si realizo cambios en mi archivo quiero guardar una nueva copia:-->
 git add . 
+git commit -m "nueva descripcion del cambio"
+git push <!--sin -u origin main y -->
+
+<!--trabajo con colaboradores de github-->
+-se envia invitacion por github al colaborador <!--debe aceptar la invitacion y bajarse el proyecto a su git para trabajar-->
+-a partir del archivo principal se trabaja en ramas (branch y merge)
+-git branch "nombre de la rama"
+-una vez que tengo la rama conformada hago
+-git pull para bajar el archivo principal y hacer:
+-git merge (mezcla) que une la rama al master(principal)
