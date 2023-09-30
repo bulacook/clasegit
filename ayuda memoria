@@ -21,7 +21,7 @@ git push <!--sin -u origin main y -->
 <!--trabajo con colaboradores de github-->
 -se envia invitacion por github al colaborador <!--debe aceptar la invitacion y bajarse el proyecto a su git para trabajar-->
 -a partir del archivo principal se trabaja en ramas (branch y merge)
--git branch "nombre de la rama"
+-git branch "nombre de la rama" <!--se trabaja sobre ella y despues se elimina cuando se inserta a la rama master(main) con git branch -d + el nombe de la rama>
 -una vez que tengo la rama conformada hago
 -git pull para bajar el archivo principal y hacer:
 -git merge (mezcla) que une la rama al master(principal)
